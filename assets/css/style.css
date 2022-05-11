@@ -39,8 +39,32 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.map-marker  {
+  height: 14px;
+}
 .btn{
   max-width: 40%;
+  padding: 0.3em 0.5em;
+  border:none;
+  color: white;
+  border-radius: 3px;
+ 
+ 
+}
+
+.follow-color{
+  background-color: forestgreen;
+}
+
+.main-color{
+  background-color: var(--main-color);
+}
+.btn-wrapper{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 .card-footer{
   background-color: var(--main-color);
@@ -53,6 +77,15 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .twitter{
   background-image: url(./../icons/twitter.png);
+}
+
+.google {
+  background-image:url(./../icons/google-plus.png);
+}
+
+.fb{
+  background-image:url(./../icons/facebook.png);
 }
