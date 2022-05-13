@@ -38,17 +38,25 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-bottom: 15px;
 }
 
+.fullname-user{
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
 .map-marker  {
   height: 14px;
 }
 .btn{
   max-width: 40%;
-  padding: 0.3em 0.5em;
+  height: 30px;
   border:none;
   color: white;
   border-radius: 3px;
+  font-weight: 100 ;
+  margin-top: 10px;
+  font-stretch: ultra-condensed;
  
  
 }
@@ -88,4 +96,8 @@
 
 .fb{
   background-image:url(./../icons/facebook.png);
+}
+
+p {
+  margin: 20px;
 }
